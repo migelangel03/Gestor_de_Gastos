@@ -1,0 +1,90 @@
+<html lang-"es">
+
+<head charset-"utf-8">
+ <title>cuentas</title>
+  <link rel="stylesheet" href="css/cuentas.css">
+</head>
+
+<body>
+
+  <div class="contenedor">
+      <div class="menu logo-nav-container">
+        <img src="imagenes/logo.png">
+        <nav class="navegación">
+          <ul>
+           <li><a href="../inicio/inicio.html">Inicio</a></li>
+           <li><a href="#">Cuentas</a></li>
+           <li><a href="../noticias/noticias.html">Noticias</a></li>
+           <li><a href="../../index.html">Salida</a></li>
+           </div>
+          </ul>
+         </nav>
+
+         <div class="centro">
+
+           <h1>Cuanto es el total de gastos en el mes</h1>
+           <div class="principal">
+
+             <span>
+               <i class="luz 1"></i>
+               <input id="num" type="number" placeholder="Luz" name="" />
+             </span><br>
+             <span>
+               <i class="gas 2"></i>
+               <input id="num1" type="number" placeholder="Gas" name="" />
+             </span><br>
+             <span>
+               <i class="mercado 3"></i>
+               <input id="num2" type="number" placeholder="Mercado" name="" />
+             </span><br>
+             <span>
+               <i class="ropa 4"></i>
+               <input id="num3" type="number" placeholder="Ropa" name="" />
+             </span><br>
+             <span>
+               <i class="agua 5"></i>
+               <input id="num4" type="number" placeholder="Agua" name="" />
+             </span><br>
+             <span>
+               <i class="arriendo 6"></i>
+               <input id="num5" type="number" placeholder="Arriendo" name="" />
+             </span><br>
+             <span>
+               <i class="arriendo 6"></i>
+               <input id="res" type="text" placeholder="Respuesta" name="" />
+             </span><br><br>
+             <button onClick="calcular1()">Calcular</button>
+
+             <div class="centro1">
+               <h1>Cuanto es el total de ingresos</h1>
+               <div class="principal1">
+
+                 <span>
+                   <i class="Ingresos"></i>
+                   <input id="nem" type="number" placeholder="Ingreos externos" name="" />
+                 </span><br>
+                 <span>
+                   <i class="Regalos"></i>
+                   <input id="nem1" type="number" placeholder="Regalos" name="" />
+                 </span><br>
+                 <span>
+                   <i class="Mensualidad"></i>
+                   <input id="nem2" type="number" placeholder="Mensualidad" name="" />
+                 </span><br>
+                 <span>
+                   <i class="Negosisos"></i>
+                   <input id="nem3" type="number" placeholder="Negocios" name="" />
+                 </span><br>
+                 <span>
+                   <i class="arriendo 6"></i>
+                   <input id="ris" type="text" placeholder="Respuesta" name="" />
+                 </span><br>
+                 <button onClick="calcular2()">Calcular</button>
+               </div>
+           </div>
+         </div>
+        </div>
+      </div>
+      <script src="js/cuentas.js"></script>
+  </body>
+</html>
